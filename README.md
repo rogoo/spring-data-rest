@@ -34,6 +34,8 @@ By default, all repositories methods are exposed (and yes it can be changed). So
 Spring has a default pattern for date, and I've changed it (in _Person_) to the pattern **"dd/MM/yyy"** with **@JsonFormat(pattern = "dd/MM/yyyy")** jackson annotation.
 
 ## H2 Console
+Remember that H2 is a inmemory database. So on every restart it's gone. You can point to a file and make it persistent.
+
 If you want to access the H2 embedded GUI, remember to enabled it.
 ```
 spring.h2.console.enabled=true*
