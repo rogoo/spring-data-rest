@@ -1,5 +1,5 @@
 # spring-data-rest
-A simple app using Spring Data Rest and H2.
+A simple app using Spring Data Rest and H2. Built using maven.
 
 To have a list of all endpoints go to this URL. The base URL is the root **"/"**, but I've changed to use **"/apir"**.
 ```
