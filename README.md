@@ -1,6 +1,12 @@
 # spring-data-rest
 A simple app using Spring Data Rest and H2.
 
+To have a list of all endpoints go to this URL. The base URL is the root **"/"**, but I've changed to use **"/apir"**.
+```
+http://localhost:8080/apir
+```
+
+
 All RESTful exposed are:
 - http://localhost:8080/apir/person (GET) - lists all
 - http://localhost:8080/apir/person/{id} (GET) - search by person by id
@@ -46,6 +52,9 @@ By default the URL is **/h2-console**, but you can change it.
 ```
 spring.h2.console.path=/h2
 ```
+## Database Preloading
+In the ConfigurationEntry class I am preloading the H2 database so it's not empty.
+
 ## Use of Spring Devtools
 Out of everything it does, the automatic restart of the application whenever a file is changed just makes the development life a lot easier.
 #### Maven

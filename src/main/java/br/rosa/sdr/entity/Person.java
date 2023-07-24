@@ -24,6 +24,15 @@ public class Person {
 	@JsonFormat(pattern = "dd/MM/yyyy")
 	private Date bornIn;
 
+	public Person() {
+	}
+
+	public Person(String firstName, String lastName, Date bornIn) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.bornIn = bornIn;
+	}
+
 	public Integer getId() {
 		return id;
 	}
