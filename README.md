@@ -18,7 +18,7 @@ All RESTful exposed are:
 ## Chaging Base URI
 By default, it serves up REST resources at the root "/", and so, to avoid conflicts, I'm changing to use **/apir**.
 ```
-spring.servlet.context-path=/apir
+server.servlet.context-path=/apir
 ```
 
 ## REST api
